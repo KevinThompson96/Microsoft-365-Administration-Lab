@@ -60,7 +60,13 @@ The employee requires:
 
 **7. Application Deployment**
 
+## Security 
 
+## Documentation
+
+## Skills Demonstrated
+
+## Lessons Learned 
 
 
 
