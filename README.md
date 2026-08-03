@@ -44,6 +44,22 @@ The employee requires:
 - Microsoft 365 Apps deployment
 - Compliance and security policy assignment
 
+## Implementation
+
+**1. Identity Management**
+
+**2. Exchange Online**
+
+**3. Microsoft Teams**
+
+**4. SharePoint Online**
+
+**5. OneDrive**
+
+**6. Microsoft Intune**
+
+**7. Application Deployment**
+
 
 
 
