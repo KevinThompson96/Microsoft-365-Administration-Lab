@@ -155,11 +155,32 @@ Intune enrollment: Sarah's Windows 10 workstation was enrolled into Microsoft In
 
 ## Security 
 
-## Documentation
+Implemented:
+
+- Multi-Factor Authentication
+- Conditional Access
+- Device Compliance
+- Password policies
 
 ## Skills Demonstrated
 
-## Lessons Learned 
+- Microsoft 365 Administration
+- Microsoft Entra ID
+- Microsoft Intune
+- Exchange Online
+- SharePoint Online
+- Microsoft Teams
+- OneDrive
+- Identity & Access Management
+- Device Compliance
+- Conditional Access
+- Windows Administration
+
+## Lessons Learned & Continuous Learning
+
+This project provided practical experience administering a Microsoft 365 tenant from the perspective of an IT Technician. It reinforced the relationship between identity management, endpoint management, collaboration services, and security policies in a cloud-managed environment.
+
+To continue this lab, I will be continuing to explore all aspects of the administration center, particularly with endpoint security, enforcing stronger password policies, and experimenting with non-compliant devices. 
 
 
 
