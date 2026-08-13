@@ -146,7 +146,7 @@ Assignment type: Required
 
 ![14](Screenshots/Installed-Apps.png)
 
-## Login Test and Results 
+## Validation and Testing
 
 **MFA**
 
