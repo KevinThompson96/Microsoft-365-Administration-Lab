@@ -64,6 +64,10 @@ Group-based access: Sarah was added to the Finance security group to support dep
 
 **4. Conditional Access**
 
+A Conditional Access policy was configured to require MFA for members of the Finance security group when accessing organizational resources.
+
+The policy was designed to demonstrate how identity-based access controls can be applied to specific groups rather than universally.
+
 ![4](Screenshots/Conditional-Access-Policy.png)
 
 **5. Exchange Online**
@@ -114,6 +118,8 @@ Device compliance: A Windows 10/11 compliance policy was created to require base
 
 **11. Intune Configuration Profile**
 
+A Windows configuration profile was created to establish baseline endpoint configuration requirements for Finance workstations, including a device PIN, password expiration, history, failed attempts, device lock-out, minimum length, and complexity.  
+
 ![11](Screenshots/Intune-Security-Configuration.png)
 
 **12. Enrolling Sarah's Laptop**
@@ -124,11 +130,23 @@ Intune enrollment: Sarah's Windows 10 workstation was enrolled into Microsoft In
 
 **13. Deploying Microsoft 365 Apps**
 
+Microsoft 365 Apps were deployed through Intune to the Finance device group.
+
+Applications included:
+
+- Word
+- Excel
+- PowerPoint
+- Outlook
+- Teams
+
+Assignment type: Required
+
 ![13](Screenshots/Assign-Apps.png)
 
 ![14](Screenshots/Installed-Apps.png)
 
-## Login Test
+## Login Test and Results 
 
 **MFA**
 
@@ -149,6 +167,19 @@ Intune enrollment: Sarah's Windows 10 workstation was enrolled into Microsoft In
 **Installed Apps**
 
 ![19](Screenshots/Showing-Apps-Installed.png)
+
+| Test | Expected Result | Result |
+| :--- | :---: | ---: |
+| Microsoft 365 login | Authentication successful | Pass |
+| MFA | MFA challenge presented | Pass |
+| Exchange | Mailbox accessible | Pass |
+| Teams | Finance Team accessible | Pass |
+| SharePoint | Finance documents accessible | Pass |
+| OneDrive | User storage accessible | Pass |
+| Intune | Device enrolled | Pass |
+| Compliance | Device meets baseline | Pass |
+| Microsoft 365 Apps | Office applications installed | Pass |
+
 
 
 ## Security 
