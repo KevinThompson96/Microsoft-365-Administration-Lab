@@ -3,7 +3,7 @@
 ## Overview
 This project demonstrates the deployment and administration of a Microsoft 365 Business Premium environment for a fictional municipal organization. The lab simulates common responsibilities of an IT Technician, including identity management, Microsoft 365 administration, endpoint management, and security configuration.
 
-The goal of the project was to gain hands-on experience with the tools and workflows used to support end users in an enterprise environment.
+The goal of the project was to gain hands-on experience with Microsoft 365 administration and the workflows used to support end users in a managed IT environment.
 
 ## Objectives
 
