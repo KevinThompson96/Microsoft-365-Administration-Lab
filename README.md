@@ -50,73 +50,107 @@ The employee requires:
 
 Entra ID user account: Sarah Jones was created as a Finance employee and configured with appropriate organizational attributes.
 
-Screenshot 1
+![1](Screenshots/Create-User-Sarah-Jones.png)
 
 **2. Assigning a License**
 
 License assignment: Microsoft 365 Business Premium was assigned to the new employee, providing access to Microsoft 365 productivity services and Intune capabilities.
 
-Screenshot 2
+![2](Screenshots/Assign-Licenses.png)
 
 **3. Finance Group**
 
 Group-based access: Sarah was added to the Finance security group to support department-level access management.
 
-Screenshot 3
+![3](Screenshots/Security-Group.png)
 
 **4. Conditional Access**
 
-Screenshot 4
+![4](Screenshots/Conditional-Access-Policy.png)
 
 **5. Exchange Online**
 
 Exchange Online: Sarah's Exchange Online mailbox was automatically provisioned following Microsoft 365 license assignment.
 
+![5](Screenshots/Exchange-Online.png)
+
 **6. Shared Finance Mailbox**
 
 Shared mailbox: A departmental Finance mailbox was created and access was delegated to the Finance user.
+
+![6](Screenshots/Shared-Finance-Mailbox.png)
+
+![6.1](Screenshots/Shared-Mailbox-Permissions.png)
 
 **7. Microsoft Teams**
 
 Microsoft Teams: Sarah was added to the Finance Department team and provided access to department-specific collaboration channels.
 
+![7](Screenshots/Teams-Group.png)
+
+![7.1](Screenshots/Teams-Channels.png)
+
 **8. SharePoint**
 
 SharePoint: A departmental document library was configured for centralized Finance document storage and collaboration.
+
+![8](Screenshots/Sharepoint-Folders.png)
+
+![8.1](Screenshots/Sharepoint-Site.png)
 
 **9. OneDrive**
 
 OneDrive: Verified personal cloud storage provisioning and tested controlled file sharing for the new employee.
 
+![9](Screenshots/OneDrive-Folders.png)
+
+![9.1](Screenshots/OneDrive-Share.png)
+
+![9.2](Screenshots/OneDrive-Share-Confirm.png)
+
 **10. Intune Compliance Policy**
 
 Device compliance: A Windows 10/11 compliance policy was created to require baseline security controls including firewall, antivirus, and encryption.
 
+![10](Screenshots/Intune-Compliance-Policy.png)
+
 **11. Intune Configuration Profile**
 
-screenshot
+![11](Screenshots/Intune-Security-Configuration.png)
 
 **12. Enrolling Sarah's Laptop**
 
 Intune enrollment: Sarah's Windows 10 workstation was enrolled into Microsoft Intune for centralized endpoint management.
 
+![12](Screenshots/Enroll-Intune-2.png)
 
-**13. Assigning Compliance Policy**
+**13. Deploying Microsoft 365 Apps**
 
-Screenshot
+![13](Screenshots/Assign-Apps.png)
 
-**14. Deploying Microsoft 365 Apps**
+![14](Screenshots/Installed-Apps.png)
 
-Screenshot
+## Login Test
 
-screenshot
+**MFA**
 
-**15. **
-**16. **
-**17. **
-**18. **
-**19. **
+![15](Screenshots/Login-MFA-Check.png)
 
+**Outlook**
+
+![16](Screenshots/Outlook-Check.png)
+
+**Teams**
+
+![17](Screenshots/Teams-Check.png)
+
+**OneDrive**
+
+![18](Screenshots/OneDrive-Test.png)
+
+**Installed Apps**
+
+![19](Screenshots/Showing-Apps-Installed.png)
 
 
 ## Security 
