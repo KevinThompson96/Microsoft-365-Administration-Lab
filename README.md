@@ -26,7 +26,7 @@ The goal of the project was to gain hands-on experience with the tools and workf
 | File Storage | OneDrive |
 | Document Management | SharePoint Online |
 | Endpoint Management | Microsoft Intune |
-| Client | Windows 11 VM |
+| Client | Windows 10 VM |
 
 ## Scenario
 
@@ -48,17 +48,76 @@ The employee requires:
 
 **1. Identity Management**
 
-**2. Exchange Online**
+Entra ID user account: Sarah Jones was created as a Finance employee and configured with appropriate organizational attributes.
 
-**3. Microsoft Teams**
+Screenshot 1
 
-**4. SharePoint Online**
+**2. Assigning a License**
 
-**5. OneDrive**
+License assignment: Microsoft 365 Business Premium was assigned to the new employee, providing access to Microsoft 365 productivity services and Intune capabilities.
 
-**6. Microsoft Intune**
+Screenshot 2
 
-**7. Application Deployment**
+**3. Finance Group**
+
+Group-based access: Sarah was added to the Finance security group to support department-level access management.
+
+Screenshot 3
+
+**4. Conditional Access**
+
+Screenshot 4
+
+**5. Exchange Online**
+
+Exchange Online: Sarah's Exchange Online mailbox was automatically provisioned following Microsoft 365 license assignment.
+
+**6. Shared Finance Mailbox**
+
+Shared mailbox: A departmental Finance mailbox was created and access was delegated to the Finance user.
+
+**7. Microsoft Teams**
+
+Microsoft Teams: Sarah was added to the Finance Department team and provided access to department-specific collaboration channels.
+
+**8. SharePoint**
+
+SharePoint: A departmental document library was configured for centralized Finance document storage and collaboration.
+
+**9. OneDrive**
+
+OneDrive: Verified personal cloud storage provisioning and tested controlled file sharing for the new employee.
+
+**10. Intune Compliance Policy**
+
+Device compliance: A Windows 10/11 compliance policy was created to require baseline security controls including firewall, antivirus, and encryption.
+
+**11. Intune Configuration Profile**
+
+screenshot
+
+**12. Enrolling Sarah's Laptop**
+
+Intune enrollment: Sarah's Windows 10 workstation was enrolled into Microsoft Intune for centralized endpoint management.
+
+
+**13. Assigning Compliance Policy**
+
+Screenshot
+
+**14. Deploying Microsoft 365 Apps**
+
+Screenshot
+
+screenshot
+
+**15. **
+**16. **
+**17. **
+**18. **
+**19. **
+
+
 
 ## Security 
 
