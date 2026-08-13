@@ -110,7 +110,7 @@ OneDrive: Verified personal cloud storage provisioning and tested controlled fil
 
 **10. Intune Compliance Policy**
 
-Device compliance: A Windows 10/11 compliance policy was created to require baseline security controls including firewall, antivirus, and encryption.
+Device compliance: A Windows 10/11 compliance policy was created to require baseline security controls including a password, firewall, and antivirus.
 
 ![10](Screenshots/Intune-Compliance-Policy.png)
 
