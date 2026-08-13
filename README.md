@@ -72,7 +72,7 @@ Group-based access: Sarah was added to the Finance security group to support dep
 
 Exchange Online: Sarah's Exchange Online mailbox was automatically provisioned following Microsoft 365 license assignment.
 
-![5](Screenshots/Exchange-Online.png)
+![5](Screenshots/Exchange-Mailbox.png)
 
 **6. Shared Finance Mailbox**
 
