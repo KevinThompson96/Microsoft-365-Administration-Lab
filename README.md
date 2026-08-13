@@ -13,8 +13,6 @@ The goal of the project was to gain hands-on experience with the tools and workf
 - Configure Microsoft Teams, Exchange Online, SharePoint, and OneDrive
 - Enroll Windows devices into Microsoft Intune
 - Deploy Microsoft 365 Apps
-- Apply endpoint compliance and security policies
-- Document common IT administration tasks
 
 ## Environment
 
